@@ -1,0 +1,61 @@
+body {
+    background-color: white
+  }
+  
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  
+  nav {
+    float: left;
+    width: 30%;
+    height: 450px; 
+    background: rgb(161, 156, 156);
+    padding: 20px;
+    padding-bottom: 10px;
+  }
+
+  nav img {
+    display: block;
+    margin-left: auto;
+    width: 50%;
+    height: 50%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #d8d8d8;
+    height: 450px; 
+  }
+  
+  
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  
+  
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
